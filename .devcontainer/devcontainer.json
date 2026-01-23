@@ -1,6 +1,6 @@
 {
-    "name": "MeltpoolFoam Plus Dev (ccls)",
-    "image": "mygetsy/openfoam-dev-ccls:v2406",
+    "name": "OpenFOAM Dev Container for VS Code (ccls + Bear)",
+    "image": "mygetsy/openfoam-dev-ccls:v2406", // Change this to suitable version e.g 13 for ORG or v2506 for COM. Note "v" in the version name.
     "customizations": {
         "vscode": {
             "extensions": [
