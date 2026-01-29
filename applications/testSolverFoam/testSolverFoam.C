@@ -29,8 +29,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H" // Comment this if using ORG version!
-// #include "argList.H" // Uncomment this if using COM version!
+#include "fvCFD.H" // Comment this if using COM version!
+// #include "argList.H" // Uncomment this if using ORG version!
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //ф
 
