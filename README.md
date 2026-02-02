@@ -11,8 +11,13 @@ This repository provides a ready-to-use VS Code Dev Container setup for OpenFOAM
 2. Open the repo in VS Code and run:
    **“Dev Containers: B in Container”**.
 3. Build (and generate `compile_commands.json`) using one of:
-   - `Ctrl + Shift + B` (default build task).
+   - `Ctrl + Shift + B` (Mac OS: `Cmd + Shift + B`) (default build task).
    - `Run and Debug → Build w/ Bear` (dummy launch config that triggers the same task).
+
+> [!IMPORTANT]
+> Initialize IntelliSense on First Run
+> On the first entry to the dev container, ccls may not detect the newly generated compile_commands.json automatically.
+> If indexing does not start, open the Command Palette (`Ctrl + Shift + P`) and execute `ccls: Restart`.
 
 ## Build + IntelliSense (ccls)
 
